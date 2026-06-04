@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+venv/
+env/
+
+.DS_Store
+
+.streamlit/secrets.toml
+
+models/*.joblib
+
+.idea/
+.vscode/
