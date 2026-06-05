@@ -16,6 +16,12 @@ with open("style.css") as f:
 
 df = load_data()
 
+
+import os
+
+st.write(os.path.exists("assets/startup_banner.png"))
+
+
 st.image(
     "assets/startup_banner.png",
     use_container_width=True
